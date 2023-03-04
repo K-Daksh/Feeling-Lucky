@@ -67,6 +67,7 @@ document.querySelector('.btn--mute').addEventListener('click',function(){
     console.log(check_mute);
     if(check_mute==="🔊 UNMUTE"){
         document.querySelector('.btn--mute').textContent="🔇 MUTE";
+        new Audio("WrongBuzzerTrimmed.mp3").play();
     }else{
         document.querySelector('.btn--mute').textContent="🔊 UNMUTE";
         invrt_bl(sound_check);
