@@ -4,8 +4,8 @@
 
 ## <h2>Note</h2>
 
-This project is running live on the [Following Link](https://k-daksh.github.io/Dice_Game_JavaScript/)
-<h3>https://k-daksh.github.io/Dice_Game_JavaScript/</h3>
+This project is running live on the [Following Link](https://k-daksh.github.io/Feeling-Lucky/)
+<h3>https://k-daksh.github.io/Feeling-Lucky//</h3>
 
 ## Introduction
 
