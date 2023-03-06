@@ -279,6 +279,7 @@ main {
     transform: translateX(-50%);
     color: #444;
     background: none;
+    background-color:none;
     border: none;
     font-family: inherit;
     font-size: 1.8rem;
@@ -286,14 +287,6 @@ main {
     cursor: pointer;
     font-weight: 400;
     transition: all 0.2s;
-  
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-  
-    padding: 0.7rem 2.5rem;
-    border-radius: 50rem;
-    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
   }
   
   .btn::first-letter {
@@ -305,20 +298,10 @@ main {
   .btn--new {
     top: .6rem;
     width: 500%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #444;
-    background: none;
-    border: none;
-    font-family: inherit;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 400;
-    transition: all 0.2s;
-    padding: 0.7rem 2.5rem;
-    border-radius: 50rem;
+    background-color: none;
+    backdrop-filter:none;
+    filter: none;
+    box-shadow: none;
   }
   .btn--roll {
     visibility: hidden;
@@ -333,38 +316,18 @@ main {
   .btn--hold {
     top: 46.5rem;
     width:500px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #444;
-    background: none;
-    border: none;
-    font-family: inherit;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 400;
-    transition: all 0.2s;
-    padding: 0.7rem 2.5rem;
-    border-radius: 50rem;
+    background-color: none;
+    backdrop-filter:none;
+    filter: none;
+    box-shadow: none;
   }
   .btn--mute {
     top: 50.5rem;
     width: 500px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #444;
-    background: none;
-    border: none;
-    font-family: inherit;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 400;
-    transition: all 0.2s;
-    padding: 0.7rem 2.5rem;
-    border-radius: 50rem;
+    background-color: none;
+    backdrop-filter:none;
+    filter: none;
+    box-shadow: none;
   }
   
   
