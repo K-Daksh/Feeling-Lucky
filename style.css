@@ -310,9 +310,8 @@ main {
   .btn--hold {
     top: 45.6rem;
     width:500px;
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.489);
-    backdrop-filter: blur(10px);
+    background: none;
+    background-color: none;
   }
   .btn--mute {
     top: 50.5rem;
