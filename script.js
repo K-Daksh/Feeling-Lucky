@@ -111,6 +111,9 @@ const Show_Dice = function(Random_no,Player_Chance){
 document.querySelector('.btn--roll').addEventListener('click',function(){
     Show_Dice(Find_Dice_Random(),Player_Chance);
 });
+document.querySelector('.dice').addEventListener('click',function(){
+    Show_Dice(Find_Dice_Random(),Player_Chance);
+});
 document.querySelector('.btn--hold').addEventListener('click',function(){
     Add_Max(Player_Chance);
     Change_Player(Player_Chance);
